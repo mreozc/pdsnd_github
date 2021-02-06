@@ -5,7 +5,7 @@
 BikeShare Project
 
 ### Description
-Describe what your project is about and what it does
+This project is about bikesahre companies and their data in some cities
 
 ### Files used
 Include the files used
