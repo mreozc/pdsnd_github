@@ -310,7 +310,7 @@ def printRows(df):
     Args:
         (df) dataframe - filtered dataframe according to filters
     Print:
-       5 row a time
+       5 row a time and asks for another 5.
     """
     row = 0
     filteredResult = input("\nWould you want to see results? Write 'yes' to see first 5 rows or 'no' to turn back \n").lower()
