@@ -103,8 +103,8 @@ def load_data(city, month, day):
 
     Args:
         (str) city - name of the city to analyze
-        (str) month - name of the month to filter by, or "all" to apply no month filter
-        (str) day - name of the day of week to filter by, or "all" to apply no day filter
+        (str) month - name of the month to filter by, or "all" to apply no month filter, if day is selceted it doesnt give month
+        (str) day - name of the day of week to filter by, or "all" to apply no day filter, if month is selceted it doesnt give day
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
     """
