@@ -53,17 +53,17 @@ def get_filters():
     
     #Filter by month if user asks for it
     if filtername=='month' or filtername=='both':
-        months =isMonth()     
+        months =giveMonth()     
 
     #Filter by month if user asks for it
     if filtername=='day' or filtername=='both':
-        days=isDay()
+        days=giveDay()
 
             
     return city, months, days
 
 
-def isMonth():
+def giveMonth():
     """
     Function to ask input from user to choose which month
 
@@ -80,7 +80,7 @@ def isMonth():
     print('-'*40)
     return month
     
-def isDay():
+def giveDay():
     """
     Function to ask input from user to choose which day
 
